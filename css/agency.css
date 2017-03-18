@@ -226,7 +226,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/jg.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -631,11 +631,11 @@ ul.social-buttons {
 ul.social-buttons li a {
   display: block;
   background-color: #222222;
-  height: 40px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
   border-radius: 100%;
   font-size: 20px;
-  line-height: 40px;
+  line-height: 60px;
   color: white;
   outline: none;
   -webkit-transition: all 0.3s;
@@ -646,6 +646,11 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
   background-color: #fed136;
+}
+.custom-tooltip + .tooltip > .tooltip-inner{
+  padding: 10px;
+  border-radius: 0px;
+  font-size: 14px;
 }
 .btn:focus,
 .btn:active,

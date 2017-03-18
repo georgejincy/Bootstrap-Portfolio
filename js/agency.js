@@ -28,6 +28,9 @@
         offset: {
             top: 100
         }
-    })
+    });
+
+    //Trigger tooltips for social icons
+    $('[data-toggle="tooltip"]').tooltip({placement : 'bottom'});  
 
 })(jQuery); // End of use strict
