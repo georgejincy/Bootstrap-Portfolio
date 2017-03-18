@@ -1,25 +1,36 @@
-/*!
- * Start Bootstrap - Agency v3.3.7+1 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+/* line 6, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+/* line 11, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .text-muted {
   color: #777777;
 }
+
+/* line 15, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .text-primary {
   color: #fed136;
 }
+
+/* line 18, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
+.text-white {
+  color: #fafafa;
+}
+
+/* line 22, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 p {
   font-size: 14px;
   line-height: 1.75;
 }
+
+/* line 27, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 p.large {
   font-size: 16px;
 }
+
+/* line 31, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 a,
 a:hover,
 a:focus,
@@ -27,34 +38,43 @@ a:active,
 a.active {
   outline: none;
 }
+
+/* line 39, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 a {
   color: #fed136;
 }
+
+/* line 43, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 a:hover,
 a:focus,
 a:active,
 a.active {
   color: #fec503;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+
+/* line 50, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
+h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
+
+/* line 55, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .img-centered {
   margin: 0 auto;
 }
+
+/* line 59, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .bg-light-gray {
   background-color: #eeeeee;
 }
+
+/* line 63, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .bg-darkest-gray {
   background-color: #222222;
 }
+
+/* line 69, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .btn-primary {
   color: white;
   background-color: #fed136;
@@ -63,42 +83,61 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
+
+/* line 10, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/_mixins.scss */
+.btn-primary:focus, .btn-primary.focus {
+  color: white;
+  background-color: #fec503;
+  border-color: #b48b01;
+}
+
+/* line 16, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/_mixins.scss */
+.btn-primary:hover {
   color: white;
   background-color: #fec503;
   border-color: #f6bf01;
 }
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
+
+/* line 21, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/_mixins.scss */
+.btn-primary:active, .btn-primary.active,
+.open > .btn-primary.dropdown-toggle {
+  color: white;
+  background-color: #fec503;
+  border-color: #f6bf01;
+}
+
+/* line 28, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/_mixins.scss */
+.btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus,
+.open > .btn-primary.dropdown-toggle:hover,
+.open > .btn-primary.dropdown-toggle:focus,
+.open > .btn-primary.dropdown-toggle.focus {
+  color: white;
+  background-color: #dcab01;
+  border-color: #b48b01;
+}
+
+/* line 36, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/_mixins.scss */
+.btn-primary:active, .btn-primary.active,
+.open > .btn-primary.dropdown-toggle {
   background-image: none;
 }
-.btn-primary.disabled,
-.btn-primary[disabled],
-fieldset[disabled] .btn-primary,
-.btn-primary.disabled:hover,
-.btn-primary[disabled]:hover,
+
+/* line 44, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/_mixins.scss */
+.btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus,
 fieldset[disabled] .btn-primary:hover,
-.btn-primary.disabled:focus,
-.btn-primary[disabled]:focus,
 fieldset[disabled] .btn-primary:focus,
-.btn-primary.disabled:active,
-.btn-primary[disabled]:active,
-fieldset[disabled] .btn-primary:active,
-.btn-primary.disabled.active,
-.btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active {
+fieldset[disabled] .btn-primary.focus {
   background-color: #fed136;
   border-color: #fed136;
 }
+
+/* line 52, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/_mixins.scss */
 .btn-primary .badge {
   color: #fed136;
   background-color: white;
 }
+
+/* line 75, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .btn-xl {
   color: white;
   background-color: #fed136;
@@ -110,59 +149,83 @@ fieldset[disabled] .btn-primary.active {
   font-size: 18px;
   padding: 20px 40px;
 }
-.btn-xl:hover,
-.btn-xl:focus,
-.btn-xl:active,
-.btn-xl.active,
-.open .dropdown-toggle.btn-xl {
+
+/* line 10, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/_mixins.scss */
+.btn-xl:focus, .btn-xl.focus {
+  color: white;
+  background-color: #fec503;
+  border-color: #b48b01;
+}
+
+/* line 16, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/_mixins.scss */
+.btn-xl:hover {
   color: white;
   background-color: #fec503;
   border-color: #f6bf01;
 }
-.btn-xl:active,
-.btn-xl.active,
-.open .dropdown-toggle.btn-xl {
+
+/* line 21, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/_mixins.scss */
+.btn-xl:active, .btn-xl.active,
+.open > .btn-xl.dropdown-toggle {
+  color: white;
+  background-color: #fec503;
+  border-color: #f6bf01;
+}
+
+/* line 28, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/_mixins.scss */
+.btn-xl:active:hover, .btn-xl:active:focus, .btn-xl:active.focus, .btn-xl.active:hover, .btn-xl.active:focus, .btn-xl.active.focus,
+.open > .btn-xl.dropdown-toggle:hover,
+.open > .btn-xl.dropdown-toggle:focus,
+.open > .btn-xl.dropdown-toggle.focus {
+  color: white;
+  background-color: #dcab01;
+  border-color: #b48b01;
+}
+
+/* line 36, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/_mixins.scss */
+.btn-xl:active, .btn-xl.active,
+.open > .btn-xl.dropdown-toggle {
   background-image: none;
 }
-.btn-xl.disabled,
-.btn-xl[disabled],
-fieldset[disabled] .btn-xl,
-.btn-xl.disabled:hover,
-.btn-xl[disabled]:hover,
+
+/* line 44, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/_mixins.scss */
+.btn-xl.disabled:hover, .btn-xl.disabled:focus, .btn-xl.disabled.focus, .btn-xl[disabled]:hover, .btn-xl[disabled]:focus, .btn-xl[disabled].focus,
 fieldset[disabled] .btn-xl:hover,
-.btn-xl.disabled:focus,
-.btn-xl[disabled]:focus,
 fieldset[disabled] .btn-xl:focus,
-.btn-xl.disabled:active,
-.btn-xl[disabled]:active,
-fieldset[disabled] .btn-xl:active,
-.btn-xl.disabled.active,
-.btn-xl[disabled].active,
-fieldset[disabled] .btn-xl.active {
+fieldset[disabled] .btn-xl.focus {
   background-color: #fed136;
   border-color: #fed136;
 }
+
+/* line 52, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/_mixins.scss */
 .btn-xl .badge {
   color: #fed136;
   background-color: white;
 }
+
+/* line 86, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .navbar-custom {
   background-color: #222222;
   border-color: transparent;
 }
+
+/* line 89, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .navbar-custom .navbar-brand {
   color: #fed136;
   font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
 }
-.navbar-custom .navbar-brand:hover,
-.navbar-custom .navbar-brand:focus,
-.navbar-custom .navbar-brand:active,
-.navbar-custom .navbar-brand.active {
+
+/* line 92, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
+.navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand.active {
   color: #fec503;
 }
+
+/* line 99, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .navbar-custom .navbar-collapse {
-  border-color: rgba(255, 255, 255, 0.02);
+  border-color: rgba(255, 255, 255, 0.98);
 }
+
+/* line 102, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .navbar-custom .navbar-toggle {
   background-color: #fed136;
   border-color: #fed136;
@@ -171,10 +234,13 @@ fieldset[disabled] .btn-xl.active {
   color: white;
   font-size: 12px;
 }
-.navbar-custom .navbar-toggle:hover,
-.navbar-custom .navbar-toggle:focus {
+
+/* line 108, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
+.navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
   background-color: #fed136;
 }
+
+/* line 115, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -182,22 +248,29 @@ fieldset[disabled] .btn-xl.active {
   letter-spacing: 1px;
   color: white;
 }
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus {
+
+/* line 120, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
+.navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
   color: #fed136;
   outline: none;
 }
+
+/* line 128, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
   background-color: #fed136;
 }
+
+/* line 133, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
   background-color: #fec503;
 }
+
 @media (min-width: 768px) {
+  /* line 141, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .navbar-custom {
     background-color: transparent;
     padding: 25px 0;
@@ -206,27 +279,34 @@ fieldset[disabled] .btn-xl.active {
     transition: padding 0.3s;
     border: none;
   }
+  /* line 148, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .navbar-custom .navbar-brand {
     font-size: 2em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
+  /* line 154, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .navbar-custom .navbar-nav > .active > a {
     border-radius: 3px;
   }
 }
+
 @media (min-width: 768px) {
+  /* line 163, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .navbar-custom.affix {
     background-color: #222222;
     padding: 10px 0;
   }
+  /* line 166, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
   }
 }
+
+/* line 172, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 header {
-  background-image: url('../img/jg.jpg');
+  background-image: url("../img/jgcopy.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -235,20 +315,33 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: white;
 }
+
+/* line 180, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
 }
-header .intro-text .intro-lead-in {
+
+/* line 184, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
+header .intro-text .mix-blend {
+  padding-top: 5px;
+  background-color: #2357c1;
+  color: white;
+  mix-blend-mode: luminosity;
+}
+
+/* line 190, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
+header .intro-text .mix-blend .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
-  font-size: 22px;
+  font-size: 30px;
   line-height: 22px;
   margin-bottom: 25px;
 }
-header .intro-text .intro-heading {
+
+/* line 198, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
+header .intro-text .mix-blend .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -256,11 +349,14 @@ header .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
 }
+
 @media (min-width: 768px) {
+  /* line 211, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   header .intro-text {
     padding-top: 300px;
     padding-bottom: 200px;
   }
+  /* line 214, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
@@ -268,6 +364,7 @@ header .intro-text .intro-heading {
     line-height: 40px;
     margin-bottom: 25px;
   }
+  /* line 221, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   header .intro-text .intro-heading {
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
@@ -277,14 +374,20 @@ header .intro-text .intro-heading {
     margin-bottom: 50px;
   }
 }
+
+/* line 234, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 section {
   padding: 100px 0;
 }
+
+/* line 236, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
 }
+
+/* line 241, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 section h3.section-subheading {
   font-size: 16px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -293,27 +396,37 @@ section h3.section-subheading {
   font-weight: 400;
   margin-bottom: 75px;
 }
+
 @media (min-width: 768px) {
+  /* line 252, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   section {
     padding: 150px 0;
   }
 }
+
+/* line 259, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .service-heading {
   margin: 15px 0;
   text-transform: none;
 }
+
+/* line 267, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
 }
+
+/* line 270, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 #portfolio .portfolio-item .portfolio-link {
   display: block;
   position: relative;
   max-width: 400px;
   margin: 0 auto;
 }
+
+/* line 275, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(254, 209, 54, 0.1);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -322,9 +435,13 @@ section h3.section-subheading {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
 }
+
+/* line 284, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
 }
+
+/* line 287, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   position: absolute;
   width: 100%;
@@ -335,13 +452,19 @@ section h3.section-subheading {
   margin-top: -12px;
   color: white;
 }
+
+/* line 296, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
 }
+
+/* line 299, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
   margin: 0;
 }
+
+/* line 306, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 #portfolio .portfolio-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
@@ -349,29 +472,41 @@ section h3.section-subheading {
   text-align: center;
   padding: 25px;
 }
+
+/* line 312, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 #portfolio .portfolio-item .portfolio-caption h4 {
   text-transform: none;
   margin: 0;
 }
+
+/* line 316, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 #portfolio .portfolio-item .portfolio-caption p {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
   margin: 0;
 }
+
+/* line 324, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 #portfolio * {
   z-index: 2;
 }
+
 @media (min-width: 767px) {
+  /* line 331, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
 }
+
+/* line 339, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .timeline {
   list-style: none;
   padding: 0;
   position: relative;
 }
+
+/* line 343, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .timeline:before {
   top: 0;
   bottom: 0;
@@ -382,19 +517,26 @@ section h3.section-subheading {
   left: 40px;
   margin-left: -1.5px;
 }
+
+/* line 353, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .timeline > li {
   margin-bottom: 50px;
   position: relative;
   min-height: 50px;
 }
-.timeline > li:before,
-.timeline > li:after {
+
+/* line 357, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
+.timeline > li:before, .timeline > li:after {
   content: " ";
   display: table;
 }
+
+/* line 362, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .timeline > li:after {
   clear: both;
 }
+
+/* line 365, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .timeline > li .timeline-panel {
   width: 100%;
   float: right;
@@ -402,18 +544,24 @@ section h3.section-subheading {
   position: relative;
   text-align: left;
 }
+
+/* line 371, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .timeline > li .timeline-panel:before {
   border-left-width: 0;
   border-right-width: 15px;
   left: -15px;
   right: auto;
 }
+
+/* line 377, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .timeline > li .timeline-panel:after {
   border-left-width: 0;
   border-right-width: 14px;
   left: -14px;
   right: auto;
 }
+
+/* line 384, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .timeline > li .timeline-image {
   left: 0;
   margin-left: 0;
@@ -427,164 +575,227 @@ section h3.section-subheading {
   border: 7px solid #f1f1f1;
   text-align: center;
 }
+
+/* line 396, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .timeline > li .timeline-image h4 {
   font-size: 10px;
   margin-top: 12px;
   line-height: 14px;
 }
+
+/* line 402, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .timeline > li.timeline-inverted > .timeline-panel {
   float: right;
   text-align: left;
   padding: 0 20px 0 100px;
 }
+
+/* line 406, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .timeline > li.timeline-inverted > .timeline-panel:before {
   border-left-width: 0;
   border-right-width: 15px;
   left: -15px;
   right: auto;
 }
+
+/* line 412, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .timeline > li.timeline-inverted > .timeline-panel:after {
   border-left-width: 0;
   border-right-width: 14px;
   left: -14px;
   right: auto;
 }
+
+/* line 419, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .timeline > li:last-child {
   margin-bottom: 0;
 }
+
+/* line 424, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .timeline .timeline-heading h4 {
   margin-top: 0;
   color: inherit;
 }
+
+/* line 427, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .timeline .timeline-heading h4.subheading {
   text-transform: none;
 }
+
+/* line 433, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .timeline .timeline-body > p,
 .timeline .timeline-body > ul {
   margin-bottom: 0;
 }
+
 @media (min-width: 768px) {
+  /* line 442, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .timeline:before {
     left: 50%;
   }
+  /* line 445, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .timeline > li {
     margin-bottom: 100px;
     min-height: 100px;
   }
+  /* line 448, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .timeline > li .timeline-panel {
     width: 41%;
     float: left;
     padding: 0 20px 20px 30px;
     text-align: right;
   }
+  /* line 454, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .timeline > li .timeline-image {
     width: 100px;
     height: 100px;
     left: 50%;
     margin-left: -50px;
   }
+  /* line 459, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .timeline > li .timeline-image h4 {
     font-size: 13px;
     margin-top: 16px;
     line-height: 18px;
   }
+  /* line 465, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
     text-align: left;
     padding: 0 30px 20px 20px;
   }
 }
+
 @media (min-width: 992px) {
+  /* line 476, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .timeline > li {
     min-height: 150px;
   }
+  /* line 478, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .timeline > li .timeline-panel {
     padding: 0 20px 20px;
   }
+  /* line 481, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .timeline > li .timeline-image {
     width: 150px;
     height: 150px;
     margin-left: -75px;
   }
+  /* line 485, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .timeline > li .timeline-image h4 {
     font-size: 18px;
     margin-top: 30px;
     line-height: 26px;
   }
+  /* line 491, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
   }
 }
+
 @media (min-width: 1200px) {
+  /* line 500, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .timeline > li {
     min-height: 170px;
   }
+  /* line 502, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .timeline > li .timeline-panel {
     padding: 0 20px 20px 100px;
   }
+  /* line 505, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .timeline > li .timeline-image {
     width: 170px;
     height: 170px;
     margin-left: -85px;
   }
+  /* line 509, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .timeline > li .timeline-image h4 {
     margin-top: 40px;
   }
+  /* line 513, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
 }
+
+/* line 522, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .team-member {
   text-align: center;
   margin-bottom: 50px;
 }
+
+/* line 525, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .team-member img {
   margin: 0 auto;
   border: 7px solid white;
 }
+
+/* line 529, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .team-member h4 {
   margin-top: 25px;
   margin-bottom: 0;
   text-transform: none;
 }
+
+/* line 534, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .team-member p {
   margin-top: 0;
 }
+
+/* line 542, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 aside.clients img {
   margin: 50px auto;
 }
+
+/* line 549, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 section#contact {
   background-color: #222222;
-  background-image: url('../img/yellowwood.jpg');
+  background-image: url("../img/map-image.png");
   background-position: center;
   background-repeat: no-repeat;
 }
+
+/* line 554, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 section#contact .section-heading {
   color: white;
 }
+
+/* line 557, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 section#contact .form-group {
   margin-bottom: 25px;
 }
+
+/* line 559, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 section#contact .form-group input,
 section#contact .form-group textarea {
   padding: 20px;
 }
+
+/* line 563, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 section#contact .form-group input.form-control {
   height: auto;
 }
+
+/* line 566, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 section#contact .form-group textarea.form-control {
   height: 236px;
 }
+
+/* line 570, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 section#contact .form-control:focus {
   border-color: #fed136;
   box-shadow: none;
 }
+
+/* line 574, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 section#contact ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
+
+/* line 579, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 section#contact :-moz-placeholder {
   /* Firefox 18- */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -592,6 +803,8 @@ section#contact :-moz-placeholder {
   font-weight: 700;
   color: #eeeeee;
 }
+
+/* line 584, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -599,25 +812,35 @@ section#contact ::-moz-placeholder {
   font-weight: 700;
   color: #eeeeee;
 }
+
+/* line 589, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 section#contact :-ms-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   color: #eeeeee;
 }
+
+/* line 594, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 section#contact .text-danger {
   color: #e74c3c;
 }
+
+/* line 601, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 footer {
   padding: 25px 0;
   text-align: center;
 }
+
+/* line 604, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 footer span.copyright {
   line-height: 40px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
 }
+
+/* line 609, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 footer ul.quicklinks {
   margin-bottom: 0;
   line-height: 40px;
@@ -625,44 +848,56 @@ footer ul.quicklinks {
   text-transform: uppercase;
   text-transform: none;
 }
+
+/* line 619, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 ul.social-buttons {
   margin-bottom: 0;
 }
+
+/* line 622, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 ul.social-buttons li a {
   display: block;
   background-color: #222222;
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
   border-radius: 100%;
   font-size: 20px;
-  line-height: 60px;
+  line-height: 40px;
   color: white;
   outline: none;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
+
+/* line 635, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
+ul.social-buttons li a:hover, ul.social-buttons li a:focus, ul.social-buttons li a:active {
   background-color: #fed136;
 }
-.custom-tooltip + .tooltip > .tooltip-inner{
-  padding: 10px;
+
+/* line 644, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
+.custom-tooltip + .tooltip > .tooltip-inner {
+  padding: 15px;
   border-radius: 0px;
   font-size: 14px;
 }
+
+/* line 650, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .btn:focus,
 .btn:active,
 .btn.active,
 .btn:active:focus {
   outline: none;
 }
+
+/* line 658, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .portfolio-modal .modal-dialog {
   margin: 0;
   height: 100%;
   width: auto;
 }
+
+/* line 663, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .portfolio-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
@@ -673,26 +908,38 @@ ul.social-buttons li a:active {
   padding: 100px 0;
   text-align: center;
 }
+
+/* line 672, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .portfolio-modal .modal-content h2 {
   margin-bottom: 15px;
   font-size: 3em;
 }
+
+/* line 676, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .portfolio-modal .modal-content p {
   margin-bottom: 30px;
 }
+
+/* line 679, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
   font-size: 16px;
 }
+
+/* line 685, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .portfolio-modal .modal-content ul.list-inline {
   margin-bottom: 30px;
   margin-top: 0;
 }
+
+/* line 689, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
 }
+
+/* line 693, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .portfolio-modal .close-modal {
   position: absolute;
   width: 75px;
@@ -702,9 +949,13 @@ ul.social-buttons li a:active {
   right: 25px;
   cursor: pointer;
 }
+
+/* line 701, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
 }
+
+/* line 704, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .portfolio-modal .close-modal .lr {
   height: 75px;
   width: 1px;
@@ -717,6 +968,8 @@ ul.social-buttons li a:active {
   /* Safari and Chrome */
   z-index: 1051;
 }
+
+/* line 715, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .portfolio-modal .close-modal .lr .rl {
   height: 75px;
   width: 1px;
@@ -728,24 +981,38 @@ ul.social-buttons li a:active {
   /* Safari and Chrome */
   z-index: 1052;
 }
+
+/* line 728, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 .portfolio-modal .modal-backdrop {
   opacity: 0;
   display: none;
 }
+
+/* line 736, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 ::-moz-selection {
   text-shadow: none;
   background: #fed136;
 }
+
+/* line 741, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 ::selection {
   text-shadow: none;
   background: #fed136;
 }
+
+/* line 746, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 img::selection {
   background: transparent;
 }
+
+/* line 750, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 img::-moz-selection {
   background: transparent;
 }
+
+/* line 754, C:/Users/JinZ/Documents/Coding Bootcamp/Coding Bootcamp/week_2/week2_homework/Bootstrap-Portfolio/scss/agency.scss */
 body {
   webkit-tap-highlight-color: #fed136;
 }
+
+/*# sourceMappingURL=../css/agency.map */
